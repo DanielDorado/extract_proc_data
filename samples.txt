@@ -1,0 +1,24 @@
+/proc/diskstats
+---------------
+https://github.com/railsmachine/scout-plugins --> iostat
+
+/proc/meminfo
+-------------
+https://github.com/watsonian/mem_info
+
+/proc/net/dev
+-------------
+https://github.com/tliff/systeminformation/blob/fccabe2903f71c2f943aaa673896e01c1d057531/lib/systeminformation/linux/net.rb
+https://github.com/tliff/warcorrespondent/blob/845ec6ee22b06bb8b1256c314e3e10f2ede19c4f/lib/warcorrespondent/reporters/linux/net.rb
+
+/proc/net/rpc/nfsd
+------------------
+https://github.com/ganglia/gmond_python_modules/blob/c1e3a5da25be77478007537786307e40d0c1b329/nfsstats/python_modules/nfsstats.py
+
+/proc/net/rpc/nfs
+-----------------
+https://github.com/ganglia/gmond_python_modules/blob/c1e3a5da25be77478007537786307e40d0c1b329/nfsstats/python_modules/nfsstats.py
+
+/proc/stat
+----------
+https://github.com/djberg96/linux-kstat
