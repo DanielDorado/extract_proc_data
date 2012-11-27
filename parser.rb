@@ -8,7 +8,7 @@ class Parser
     def parse(line)
         words = line.split()
         if @conversors.size != words.size
-            error("Mistmatch elements. Conversors: #{@conversors.size}, Words: #{@words.size}")
+            raise "Mistmatch elements. Conversors: #{@conversors.size}, Words: #{@words.size}"
         end
         
         result = []
