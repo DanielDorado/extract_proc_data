@@ -1,7 +1,7 @@
 extract_proc_data
 =================
 
-My first ruby program.
+My first ruby program test.
 
 It extracts data from proc files from the linux kernel.
 
